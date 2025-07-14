@@ -1,0 +1,49 @@
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+  color: white; /* White label text */
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #333; /* Dark background */
+  color: white; /* White input text */
+  padding: 0.15rem 0.25rem;
+}
+
+.form-control input::placeholder,
+.form-control textarea::placeholder {
+  color: #ccc; /* Optional: lighter placeholder text */
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  background: #444; /* Slightly lighter on focus */
+  border-color: #888; /* Subtle focus border */
+  color: white; /* Keep text white on focus */
+}
+
+.form-control--invalid label,
+.form-control--invalid p {
+  color: red;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  border-color: red;
+  background: #550000; /* Darker red for better contrast in dark theme */
+  color: white; /* Keep text visible */
+}

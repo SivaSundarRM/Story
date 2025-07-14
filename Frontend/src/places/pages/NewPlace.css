@@ -1,0 +1,27 @@
+.place-form {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background-color: #222; /* changed from white to dark background */
+  color: white; /* sets label and text color */
+}
+
+.place-form input,
+.place-form textarea {
+  color: white;
+  background-color: #333;
+  border: 1px solid #ccc;
+}
+
+.place-form label {
+  color: white;
+}
+
+.place-form input::placeholder,
+.place-form textarea::placeholder {
+  color: #ccc;
+}

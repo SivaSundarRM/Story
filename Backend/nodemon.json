@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "Siva",
+    "DB_PASSWORD": "nZcBht17rwymWkil",
+    "DB_NAME": "mern",
+    "OPENCAGE_API_KEY": "f7aecd576b8941a7bfb9a500ed7e5ec3",
+    "JWT_KEY":"supersecret_dont_share"  
+}
+}
